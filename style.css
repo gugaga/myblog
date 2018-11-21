@@ -1,0 +1,15 @@
+body{
+    background:pink;
+}
+
+p{
+    font-size:18px;
+}
+.b{
+    color:red;
+}
+
+.img1,.img2{
+    width: 200px;
+    height: 100px;
+}
