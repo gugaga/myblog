@@ -8,17 +8,24 @@
 </head>
 <body>
     <h1>git命令说明</h1>
-   <p>git init，初始化本地仓库 .git</p>
+   <p>git init
+    主要用来初始化一个空的git本地仓库。执行完上面的命令，
+    当前目录下会自动生成.git隐藏文件夹，该隐藏文件夹就是git版本库</p>
    <p>
        <img src="./images/git init.png" alt="">
    </p>
 
-   <p>git add 文件路径，用来将变动加到暂存区</p>
+   <p>git add 
+       git仓库管理分为三大块，工作区，缓存区，版本库。当在工作目录进行文件的新增，</br>
+       修改后需要提交仓库的过程中，必须将文件或者目录 git add到缓存区，git仓库会保存临时改动，</br>
+       否则直接提交无效。文件路径，用来将变动加到暂存区，也就是将要提交的文件添加到库中</p>
    <p>
        <img src="./images/git add.png" alt="">
    </p>
 
-   <p>git commit -m "信息"，用来正式提交变动，提交至 .git 仓库</p>
+   <p>git commit -v  
+    在了解git commit -v 之前先了解 git commit -m"", git add 命令只是将文件提交到缓存区，</br>
+    如果要实际提交还需要使用 git commit 命令，记录对存储库的更改</p>
    <p>
        <img src="./images/git commit.png" alt="">
    </p>
